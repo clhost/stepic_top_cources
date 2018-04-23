@@ -1,0 +1,15 @@
+# Ignore everything
+*
+
+# But not Java files...
+!.gitignore
+!build.gradle
+!gradlew
+!gradlew.bat
+!settings.gradle
+!*.java
+!*.md
+!gradle/wrapper/*
+
+# ...even if they are in subdirectories
+!*/
