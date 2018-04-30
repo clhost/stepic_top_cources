@@ -69,8 +69,6 @@ public class App {
                     // do nothing
                 }
             }
-            app.printer.interrupt();
-            service.shutdown();
             app.printTop(n);
         } catch (NumberFormatException e) {
             System.err.println("Couldn't parse integer argument.");
